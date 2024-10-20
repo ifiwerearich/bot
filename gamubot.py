@@ -175,5 +175,5 @@ async def on_message(message):
         elif days_left ==0:
             await message.channel.send('오늘이 바로 제 생일이에요!')
 
-client.run('MTI4OTU4NjQyMzg2Njg1NTUwNg.GJc17z.2nuGqIVcnncAYUymdtgRLiEWgisf79e5k79L9g')
-#client.run('MTI4OTU4NjQyMzg2Njg1NTUwNg.GJc17z.2nuGqIVcnncAYUymdtgRLiEWgisf79e5k79L9g') 
+client.run('MTI4OTU4NjQyMzg2Njg1NTUwNg.G4yTbM.Uc7RYuNY1eDYt7sUS02C2bNvVOYxkNfXbiyf4k')
+#client.run('MTI4OTU4NjQyMzg2Njg1NTUwNg.G4yTbM.Uc7RYuNY1eDYt7sUS02C2bNvVOYxkNfXbiyf4k') 
