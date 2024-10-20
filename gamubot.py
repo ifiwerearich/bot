@@ -3,6 +3,7 @@ from discord.ext import commands
 from datetime import datetime, timedelta #이런 례쯔
 import tkinter as tk #이런 멜꼐이
 
+BOT_TOKEN = 'abc' #봇 토큰 넣는곳
 
 bot_thread = None
 is_bot_running = False
@@ -175,5 +176,4 @@ async def on_message(message):
         elif days_left ==0:
             await message.channel.send('오늘이 바로 제 생일이에요!')
 
-client.run('MTI4OTU4NjQyMzg2Njg1NTUwNg.G4yTbM.Uc7RYuNY1eDYt7sUS02C2bNvVOYxkNfXbiyf4k')
-#client.run('MTI4OTU4NjQyMzg2Njg1NTUwNg.G4yTbM.Uc7RYuNY1eDYt7sUS02C2bNvVOYxkNfXbiyf4k') 
+client.run('BOT_TOKEN')
