@@ -129,6 +129,7 @@ async def on_message(message):
             await message.channel.send(f"'{name}'에 대한 정보를 찾을 수 없습니다.")  # 파일이 없을 경우 메시지 전송
             
     global hogamdo
+    
     # 필수 단어가 메시지에 포함되어 있는지 확인
     if required_word in message.content:
         # 선택 단어 중 하나라도 포함되어 있는지 확인
