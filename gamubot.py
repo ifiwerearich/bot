@@ -1,7 +1,7 @@
 import discord, threading, sys, os, random
 from discord.ext import commands
-from datetime import datetime, timedelta
-import tkinter as tk
+from datetime import datetime, timedelta #이런 례쯔
+import tkinter as tk #이런 멜꼐이
 
 
 bot_thread = None
